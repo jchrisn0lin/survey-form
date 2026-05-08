@@ -1,0 +1,100 @@
+<DOCTYPE! html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Ice Cream Survey Form</title>
+      <link rel="stylesheet" href="Project-1_Survey-From.css"/>
+    </head>
+    <body>
+      <header>
+        <h1 id="title">Favorite Ice Cream Survey Form</h1>
+        <h4>We love ice cream! Do you?</h4>
+        <picture>
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.xt7S4WH2vwRqQeWEYAAEuwHaE8%26pid%3DApi&f=1&ipt=a05fd96ffe73453ad6214c9dd1a2409fb81e1f7b14a2000e17bcfc5246343a43&ipo=images" class="center-pic"></img>
+        </picture>
+        <p id="description">Please, let us know which ice cream combination is you life changer<br>and inspire millions of others to give it a go!</p>
+      </header>
+      <form id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Your name: <input id="name" name="name" type="text" placeholder="ex: Samantha Jones" required/></label>
+          <label for="email" id="email-label">Your email: <input id="email" name="email" type="email" placeholder="ex: icecream@love.com" required/>
+          </label>
+          <label for="number" id="number-label">Your age (optional): <input id="number" name="age" type="number" min="10" max="120" placeholder="Select your age" />
+          </label>
+          <label for="how-many-scoops">How many scoops of ice cream do you dream of having? <input id="how-many-scoops" name="scoops" type="number" min="1" max="10" placeholder="Select number of scoops, max 10" />
+          </label>
+          <picture>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.LoYBn6yHXRsWHlpDaIJLIAHaE7%26pid%3DApi&f=1&ipt=a1386b3a1cb2dbb88e991617597db4941cc4fc991625cc8f011bcd91d58737b6&ipo=images" class="center"></img>
+      </picture>
+          <label for="dropdown-container">Which is your favorite ice cream container?
+            <select id="dropdown-container" name="container-selection">
+              <option value="1">(select one)</option>
+              <option value="2">Ice cream cone</option>
+              <option value="30">Chocolate ice cream cone</option>
+              <option value="3">Ice cream cup</option>
+              <option value="32">Biscuit sandwich</option>
+              <option value="4">Straight from the bucket, of course!</option>
+            </select>
+          <label for="dropdown">Which is your favorite ice cream flavor?
+            <select id="dropdown" name="flavor-selection">
+              <option value="5">(select one)</option>
+              <option value="6">Dark Chocolate</option>
+              <option value="7">Milk Chocolate</option>
+              <option value="8">Vanilla</option>
+              <option value="9">Strawberry</option>
+              <option value="10">Raspberry</option>
+              <option value="11">Mint</option>
+              <option value="12">Coconut</option>
+              <option value="13">Fudge</option>
+              <option value="14">Lemon</option>
+              <option value="15">Hazelnut</option>
+              <option value="31">Watermelon</option>
+            </select>
+        <picture>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zbnsJMpgE5qOe2KTc0wU9QHaE7%26pid%3DApi&f=1&ipt=d7e4701f28a5447875add999d6d507310ff4f27c745878fccb9f62345adfdbc6&ipo=images" class="center"></img>
+      </picture>
+          <p>Which sauce should be dripping all over your ice cream? <br>(choose one or more)</p>
+          <label for="milk-chocolate-sauce"><input id="milk-chocolate-sauce" type="checkbox" value="16"/> Milk chocolate sauce</label>
+        <label for="chocolate-sauce" ><input id="chocolate-sauce" type="checkbox" value="17"/> Chocolate Sauce</label>
+        <label for="toffee-sauce"><input id="toffee-sauce" type="checkbox" value="18"/> Fudge sauce</label>
+        <label for="strawberry-sauce"><input id="strawberry-sauce" type="checkbox" value="19"/> Strawberry sauce</label>
+        <label for="mango-sauce"><input id="mango-sauce" type="checkbox" value="20"/> Mango sauce</label>
+        <label for="sweetened-condensed-milk-sauce"><input id="sweetened-condensed-milk-sauce" type="checkbox" value="35"/> Sweetened condensed milk</label>
+        <picture>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.NKMQVX6JqAc9DS-gqGKJOQHaE8%26pid%3DApi&f=1&ipt=bb0e63b83a941d1c27c951f443e0c4650476f635fd5903fe6ae889825ce20b0c&ipo=images" class="center"></img>
+      </picture>
+          <p>Let us know if you like a topping rain on your ice cream!</p>
+          <label for="no-sprinkles"><input id="no-sprinkles" name="sprinkles-type" type="radio" value="21"/> No topping</label>
+          <label for="chocolate-chips"><input id="chocolate-chips" name="sprinkles-type" type="radio" value="22" /> Chocolate chips</label>
+          <label for="cornflakes"><input id="cornflakes" name="sprinkles-type" type="radio" value="23"/> Cornflakes</label>
+          <label for="rice-crisps"><input id="rice-crisps" name="sprinkles-type" type="radio" value="24" /> Rice crisps</label>
+          <label for="toffee-bits"><input id="toffee-bits" name="sprinkles-type" type="radio" value="25" /> Toffee bits</label>
+          <label for="nuts-chunks"><input id="nuts-chunks" name="sprinkles-type" type="radio" value="26" /> Nuts chunks</label>
+          <label for="marshmallows"><input id="marshmallows" name="sprinkles-type" type="radio" value="26" /> Marshmallow clouds</label>
+          <label for="blueberries"><input id="blueberries" name="sprinkles-type" type="radio" value="26" /> Shiny blueberries</label>
+          <label for="rainbow-sprinkles"><input id="rainbow-sprinkles" name="sprinkles-type" type="radio" value="26" /> Rainbow sprinkles</label>
+           <picture>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.oD2POI5UAai0lPl196V9PAHaDs%26pid%3DApi&f=1&ipt=8bce92da6bdc249565cd4426ef6a039957902df5811d2afdfd3d0a12f89b1ab6&ipo=images" class="center"></img>
+      </picture>
+          <p>How about some extra whipped cream with a cherry on top?</p>
+          <div>
+            <label for="extra-whipped-cream"><input id="extra-whipped-cream" name="extra-cream" type="radio" value="27" /> Hit it!</label>
+          </div>
+          <div>
+            <label for="without-whipped-cream"><input id="without-whipped-cream" name="extra-cream" type="radio" value="28" /> I'm on a diet</label>
+          </div>
+          <picture>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.cMkfquEPzFb5u8QRmtfPXwHaE5%26pid%3DApi&f=1&ipt=d32ed8b33cd3190f8df44785741d1cd9004e0e353704fdbab417201ad8833083&ipo=images" class="center"></img>
+      </picture>
+          <p>Did we forget something that really matters when making your perfect ice cream? Tell us more about it!</p>
+          <label for="tell-us-more">
+            <textarea id="tell-us-more" name="tell-us-more" placeholder="My favorite ice cream is the best because..." rows="8" cols="10"></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <p>Thank you so much for taking this survey!<br>Please, click the following submit button to let us drool while reading your description of your favorite ice cream!</p>
+          <input id="submit" type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </body>
+  </html>
