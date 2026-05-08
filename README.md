@@ -1,2 +1,2 @@
-# survey-form
-A freeCodeCamp solo project: Survey Form
+## Survey Form Project
+A freeCodeCamp solo project: A static survey form website
